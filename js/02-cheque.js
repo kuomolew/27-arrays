@@ -54,9 +54,9 @@ let mostExpensive = function(arr) {
 
 let average = function(arr) {
     //total(arr);
-    let total = total(arr);
+    let all = total(arr);
     let number = arr.length;
-    let average = (total/number).toFixed(2);
+    let average = (all/number).toFixed(2);
     console.log(`Average price is ${average}$`);
 }
 
